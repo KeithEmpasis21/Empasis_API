@@ -1,0 +1,48 @@
+@font-face {
+    font-family: secondFont;
+    src: url(nuku1.ttf);
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image:url('killerqueen.png');
+    background-repeat: repeat;
+}
+
+.body, h1{
+    font-family: secondFont;
+
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.anime {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
